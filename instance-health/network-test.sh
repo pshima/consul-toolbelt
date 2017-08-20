@@ -55,7 +55,7 @@ closeloop
 
 startloop
 echo "Loss 75 25"
-sudo tc qdisc add dev eth0 root netem loss 25.0% 25%
+sudo tc qdisc add dev eth0 root netem loss 75.0% 25%
 closeloop
 
 startloop
